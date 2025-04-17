@@ -49,7 +49,7 @@ This project implements an arbitrage-free smile interpolator (SmileAF) as part o
 
 ## 📂 Project Files
 
-- 📓 [SmileAF Implementation](./group_project.ipynb)
+- 📓 [SmileAF Implementation](./SmileAF_Implementation.ipynb)
 
 ---
 
