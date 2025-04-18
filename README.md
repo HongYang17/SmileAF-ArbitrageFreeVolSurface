@@ -51,11 +51,6 @@ This project implements an arbitrage-free smile interpolator (SmileAF) as part o
 
 - 📓 [SmileAF Implementation](./SmileAF_Implementation.ipynb)
 
----
-
-## 👤 Contribution
-
-I contributed to the optimization and enhancement of the SmileAF interpolation framework and PDE pricing, focusing on efficient solver design and numerical stability improvements.
 
 ---
 
