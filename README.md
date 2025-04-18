@@ -1,20 +1,20 @@
-# 📘 SmileAF – Arbitrage-Free Volatility Surface Construction
+#  SmileAF – Arbitrage-Free Volatility Surface Construction
 
 This project implements an arbitrage-free smile interpolator (SmileAF) as part of the Numerical Methods in Finance coursework. It includes local volatility model construction, PDE-based European option pricing, and comparison against cubic spline interpolation methods.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
-- ✅ Implement arbitrage-free smile interpolator: **SmileAF**
-- ✅ Construct local volatility surfaces from interpolated smiles
-- ✅ Price European options via **PDE solver** using local volatility
-- ✅ Compare accuracy against cubic spline-based volatility interpolation
-- ✅ Optimize algorithms for speed and stability (parallelization, banded solvers)
+-  Implement arbitrage-free smile interpolator: **SmileAF**
+-  Construct local volatility surfaces from interpolated smiles
+-  Price European options via **PDE solver** using local volatility
+-  Compare accuracy against cubic spline-based volatility interpolation
+-  Optimize algorithms for speed and stability (parallelization, banded solvers)
 
 ---
 
-## ⚙️ Core Methods
+##  Core Methods
 
 - **Quadratic Programming** to enforce:
   - Monotonicity
@@ -27,7 +27,7 @@ This project implements an arbitrage-free smile interpolator (SmileAF) as part o
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
 - Fully arbitrage-free smile interpolator using convex optimization
 - Local volatility grid computed via Dupire’s formula
@@ -39,7 +39,7 @@ This project implements an arbitrage-free smile interpolator (SmileAF) as part o
 
 ---
 
-## 🧠 Improvements
+##  Improvements
 
 - Adaptive smoothing penalties on the implied density
 - Parametric tail extrapolation to handle deep OTM/ITM options
@@ -47,13 +47,13 @@ This project implements an arbitrage-free smile interpolator (SmileAF) as part o
 
 ---
 
-## 📂 Project Files
+##  Project Files
 
-- 📓 [SmileAF Implementation](./SmileAF_Implementation.ipynb)
+-  [SmileAF Implementation](./SmileAF_Implementation.ipynb)
 
 
 ---
 
-## 📎 Reference
+##  Reference
 
 - Fengler (2009), *Arbitrage-Free Smoothing of the Implied Volatility Surface*, Quantitative Finance.
